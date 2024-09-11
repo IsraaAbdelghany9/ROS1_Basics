@@ -1,14 +1,5 @@
 # Installing ROS Noetic on Ubuntu 20.04
 
-ROS Noetic is the latest long-term support (LTS) version of ROS and will receive updates until **May 2025**. 
-Ubuntu is preferred by many ROS users because it has a large user base, which means there is extensive community support.
-If you run into any issues with ROS packages, you can consult the following resources:
-
-- **[ROS Wiki](http://wiki.ros.org/)**: Detailed documentation for ROS.
-- **[ROS Answers](https://answers.ros.org/)**: A Q&A forum for troubleshooting and community support.
-
-## ROS Noetic Installation on Ubuntu 20.04
-
 You can follow the official installation instructions from the ROS Wiki [here](http://wiki.ros.org/noetic/Installation/Ubuntu).
 Below are the steps to install ROS Noetic on Ubuntu:
 
