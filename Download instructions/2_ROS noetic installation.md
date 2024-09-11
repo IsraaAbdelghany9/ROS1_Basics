@@ -35,6 +35,7 @@ Below are the steps to install ROS Noetic on Ubuntu:
 ```sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential```
 
 ## Initialize rosdep (this is required for dependency management):
-```sudo apt install -y python3-rosdep```
-```sudo rosdep init```
-```rosdep update```
+```
+sudo apt install -y python3-rosdep
+sudo rosdep init
+rosdep update
