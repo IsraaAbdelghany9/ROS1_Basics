@@ -13,7 +13,6 @@ You can follow the official installation instructions from the ROS Wiki [here](h
 
 Below are the steps to install ROS Noetic on Ubuntu:
 
-```bash
 # Add the ROS repository to your system's sources list:
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
