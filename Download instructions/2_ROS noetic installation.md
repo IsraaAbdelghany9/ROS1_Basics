@@ -10,32 +10,31 @@ If you run into any issues with ROS packages, you can consult the following reso
 ### ROS Noetic Installation on Ubuntu 20.04
 
 You can follow the official installation instructions from the ROS Wiki [here](http://wiki.ros.org/noetic/Installation/Ubuntu).
-
 Below are the steps to install ROS Noetic on Ubuntu:
 
 ## Add the ROS repository to your system's sources list:
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'```
 
 ## Install curl if not already installed:
-sudo apt install -y curl
+```sudo apt install -y curl```
 
 ## Download and add the ROS GPG key:
-curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+```curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -```
 
 ## Update your package list:
-sudo apt update -y
+```sudo apt update -y```
 
 ## Install ROS Noetic (desktop full version):
-sudo apt install ros-noetic-desktop-full
+```sudo apt install ros-noetic-desktop-full```
 
 ## Add the ROS environment setup to your bash configuration file:
-echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+```echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc```
+```source ~/.bashrc```
 
 ## Install essential ROS dependencies:
-sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+```sudo apt install -y python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential```
 
 ## Initialize rosdep (this is required for dependency management):
-sudo apt install -y python3-rosdep
-sudo rosdep init
-rosdep update
+```sudo apt install -y python3-rosdep```
+```sudo rosdep init```
+```rosdep update```
