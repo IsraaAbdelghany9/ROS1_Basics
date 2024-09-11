@@ -32,3 +32,12 @@ source ~/.bashrc
 sudo apt install -y python3-rosdep
 sudo rosdep init
 rosdep update
+```
+
+## Environment setup (first time only)
+```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+### NOTE :
+If you have more than one ROS distribution installed, ~/.bashrc must only source the setup.bash for the version you are currently using.
